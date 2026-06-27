@@ -1,0 +1,9 @@
+# Local environment variables containing private credentials
+.env
+
+# Python compilation caches
+__pycache__/
+.pyc
+
+# License creation file
+license.py
