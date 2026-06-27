@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from weather_engine import WeatherEngine
 
 class WeatherWidget:
-    def __init__(self, root, api_key, initial_city="London"):
+    def __init__(self, root, api_key, initial_city="Sankt Augustin"):
         self.root = root
         self.engine = WeatherEngine(api_key)
         
@@ -236,7 +236,7 @@ if __name__ == "__main__":
         exit(1)
         
     root = tk.Tk()
-    widget = WeatherWidget(root, API_KEY, "London")
+    widget = WeatherWidget(root, API_KEY, "Sankt Augustin")
     
     # Spawn the background task tray listener on a separate standalone thread
     tray_thread = threading.Thread(target=run_system_tray, args=(root,), daemon=True)

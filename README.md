@@ -43,6 +43,7 @@ A sleek, minimalist desktop weather widget that provides real-time updates direc
 
 ## Usage
 
+- **Initial location**: Initial locatin is set as London. If you want to set your cityname as initial location, then change cityname in in lines 11 and line 239.
 - **Run automatically on Windows start**: Win + R, type in shell:startup to open the C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup Folder. 
 Then put a shortcut of the main.pyw in that folder.
 - **Settings**: Click the ⚙ icon to open the settings drawer and enter a new city name.
